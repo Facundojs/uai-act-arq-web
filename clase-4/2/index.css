@@ -1,0 +1,44 @@
+body {
+    background-color: aqua;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    padding: 0 32px;
+    display: flex;
+    height: 100%;
+    margin: 0px;
+    gap: 16px;
+}
+
+header {
+    background-color: gray;
+    height: 60px;
+}
+
+#menu {
+    float: left;
+    height: 200px;
+    width: 150px;
+    background-color: rgb(24, 14, 16);
+    display: hidden;
+}
+
+#contenido {
+    background-color: blueviolet;
+    height: 100%;
+    float: left;
+    width: 100%;
+}
+
+footer {
+    background-color: red;
+    height: 60px;
+    width: 100%;
+}
